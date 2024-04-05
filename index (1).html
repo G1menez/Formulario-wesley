@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <!-- cria uma formulario -->
+        <form>
+            <!-- Titulo do formulario -->
+            <h1>Cadastros de desenvolvedores</h1>
+            <!-- sub titulo do formulario -->
+            <h3>Complete suas informações</h3>
+            <!-- cria uma divisão pros inputs de texto -->
+            <div>
+                <!-- palavra que fica acima do input tipo texto nome -->
+                Nome: <br>
+                <!-- Cria um input tipo texto para que a pessoa coloque o nome -->
+                <input type="text" name="Nome"> <br> <br>
+                <!-- palavra que fica acima do input tipo texto sobrenome-->
+                Sobrenome: <br>
+                <!-- cria um input tipo texto para que a pessoa coloque o sobrenome -->
+                <input type="text" name="sobrenome"><br> <br>   
+                 <!-- palavra que fica acima do input tipo texto email -->
+                Email: <br>
+                <!-- Cria um input tipo texto para que a pessoa coloque o email -->
+                <input type="text" name="Email"> <br> <br>
+            </div>
+            <!-- Cria uma divisão pros inputs tipo radio -->
+            <div>
+                <!-- Pergunta sobre qual a aplicação você desenvolve -->
+                De qual da lado da aplicação você desenvolve: <br>
+                <!-- Input do tipo radio para que a pessoa selecione front end -->
+                <input type="radio" name="aplicação">Front-End
+                <!-- Input do tipo radio para que a pessoa selecione back end -->
+                <input type="radio" name="aplicação">Back-End
+                <!-- Input do tipo radio para que a pessoa selecione full-Stack -->
+                <input type="radio" name="aplicação">Full stack <br> <br>
+            </div>
+            <!-- Cria uma divisão pros inputs do tipo select -->
+            <div>
+            <!-- Nivel de senioridade das pessoas -->
+            Senioridade: <br>
+            <!-- Cria um input select para escolher entre uma lista -->
+            <select name="senioridade">
+                <!-- cria um input option dentro do select para representar a senioridade Junior -->
+                <option value="Junior">Junior</option>
+                <!-- cria um input option dentro do select para representar a senioridade Pleno -->
+                <option value="pleno">Pleno</option>
+                <!-- cria um input option dentro do select para representar a senioridade Senior -->
+                <option value="senior">Senior</option> 
+            </select>
+            <br> <br>
+            </div>
+            <!-- Cria uma divisão pros inputs do tipo checkbox -->
+            <div>
+                <!-- Tecnologias que você utiliza -->
+                Tecnologias que você utiliza: <br>
+                <!-- cria um input checkbox representando o html -->
+                <input type="checkbox" name="html">HTML
+                <!-- cria um input checkbox representando o CSS -->
+                <input type="checkbox" name="CSS">CSS
+                <!-- cria um input checkbox representando o Javascript -->
+                <input type="checkbox" name="Javascript">Javascript
+                <!-- cria um input checkbox representando PHP -->
+                <input type="checkbox" name="PHP">PHP
+                <!-- cria um input checkbox representando o C# -->
+                <input type="checkbox" name="c#">C#
+                <!-- cria um input checkbox representando o Python -->
+                <input type="checkbox" name="Python">Python
+                <!-- cria um input checkbox representando o Java -->
+                <input type="checkbox" name="Java">Java <br> <br>
+            </div>
+            <!-- Cria um divisão para o input do tipo textarea (caixa de texto) -->
+            <div>
+                <!-- Conte sobre sua experiencia -->
+                Conte sobre sua experiencia: <br>
+                <textarea name="experiencia"></textarea>
+            </div>
+            <!-- divisão para o input do tipo submit -->
+            <div>
+                <!-- type= botão|| value=  texto do botão -->
+                <input type="submit" value="Enviar">
+
+            </div>
+
+
+
+
+        </form>
+</body>
+</html>
